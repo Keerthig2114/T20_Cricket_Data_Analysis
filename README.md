@@ -120,7 +120,7 @@ The dataset was visually explored and analyzed using Microsoft Power BI Desktop 
 
 4.Webscraping
 
-5.Beautifual Soup
+5.Beautiful Soup
 
 6.Power Query Editor
 

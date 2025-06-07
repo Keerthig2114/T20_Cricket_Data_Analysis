@@ -126,5 +126,5 @@ The dataset was visually explored and analyzed using Microsoft Power BI Desktop 
 
 7.Power BI
 
-8.Anaconda Envirement
+8.Anaconda Environment
 

@@ -10,8 +10,8 @@ The dashboard is built for **fans, analysts, and recruiters** interested in expl
 
 
 ## 🌐 Data Sources
-- **Match & tournament data**: [ESPN Cricinfo](https://www.espncricinfo.com/)
-- **Player performance & career stats**: [Bright Data](https://brightdata.com/)
+- Scrapped all the Match & tournament data from: [ESPN Cricinfo](https://www.espncricinfo.com/)
+- Collected Player performance & career stats on: [Bright Data](https://brightdata.com/)
 
 
 ## 🛠️ Data Collection
@@ -44,6 +44,7 @@ The dashboard is built for **fans, analysts, and recruiters** interested in expl
   - 🛡️ Anchors
   - 🌀 All-Rounders
   - ⚡ Specialist Fast Bowlers
+  - 🏁 Finishers
 - Interactive slicers and tooltips
 - Visual KPIs for batting, bowling, and all-round performance
 - "Select Your XI" feature to evaluate team choices dynamically
@@ -81,6 +82,49 @@ The dashboard is built for **fans, analysts, and recruiters** interested in expl
 - Display Text = IF([Player Selection] = "1", " ", "Select Player(s) by clicking the player’s name to see their individual or combined strength.")
 - Color Callout Value = if([Player Selection]="0", "#EB895F","#605E5C")
 
-## 📷 Dashboard Screenshots
+## Reports:
+The dataset was visually explored and analyzed using Microsoft Power BI Desktop for interactive and insightful dashboards:
 
+### Player Analysis    
+
+|  Power Hitters/Openers  |
+| --------------- |
+![image alt](https://github.com/Keerthig2114/T20_Cricket_Data_Analysis/blob/9c7815fa5101320c569c647f72e2047d1d8ccc70/Openers.png)
+
+| All Rounders |
+| --------------- |
+![image alt](https://github.com/Keerthig2114/T20_Cricket_Data_Analysis/blob/9c7815fa5101320c569c647f72e2047d1d8ccc70/All%20Rounder.png)
+
+|  Anchors  |
+| --------------- |
+![image alt](https://github.com/Keerthig2114/T20_Cricket_Data_Analysis/blob/9c7815fa5101320c569c647f72e2047d1d8ccc70/Anchors.png)
+
+|  Specialist Fast Bowlers  |
+| --------------- |
+![image alt](https://github.com/Keerthig2114/T20_Cricket_Data_Analysis/blob/9c7815fa5101320c569c647f72e2047d1d8ccc70/Fast%20Bowlers.png)
+
+| Finishers  |
+| --------------- |
+![image alt](https://github.com/Keerthig2114/T20_Cricket_Data_Analysis/blob/9c7815fa5101320c569c647f72e2047d1d8ccc70/Finisher.png)
+
+### Final 11
+![image alt](https://github.com/Keerthig2114/T20_Cricket_Data_Analysis/blob/9c7815fa5101320c569c647f72e2047d1d8ccc70/Final%2011.png)
+
+## Tools, Software and Libraries :
+
+1.Jupyter Notebook
+
+2.Python
+
+3.Pandas
+
+4.Webscraping
+
+5.Beautifual Soup
+
+6.Power Query Editor
+
+7.Power BI
+
+8.Anaconda Envirement
 
